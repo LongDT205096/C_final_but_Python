@@ -20,7 +20,8 @@ def _2(root):
 
 def _3(root):
     print("\nChon chuc nang xoa\n")
-    user_del = str
+    print("Nhap ten sinh vien can xoa: ")
+
     while True:
         user_del = input()
         if user_del != "Admin": break
@@ -28,8 +29,9 @@ def _3(root):
     del_node = search(root, user_del)
 
     if del_node is not None:
+        print("\nThong tin sinh vien:")
         print(del_node.username, del_node.password, del_node.score)
         root = delete(root, user_del)
-        print("Xoa thanh cong\n")
+        print("\nXoa thanh cong\n")
     else:
         print("User khong ton tai\n")

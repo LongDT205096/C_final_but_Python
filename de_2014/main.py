@@ -3,7 +3,7 @@ import SV
 import GV
 import menu
 
-f = open("d:\Github\C_final_but_Python\de_2014\sinhvien.txt","r")
+f = open("sinhvien.txt","r")
 root = tree.read_file(f)
 f.close()
 
@@ -33,9 +33,10 @@ while option > 0 and option < 2:
                 elif opt == 2: SV._2(root, log_info)
                 elif opt == 3:
                     print("\nChon chuc nang luu thong tin\n")
-                    f = open("d:\Github\C_final_but_Python\de_2014\sinhvien.txt","w")
+                    f = open("sinhvien.txt","w")
                     tree.rewrite(f, root)
                     f.close()
+                    print("Luu thanh cong\n")
         else:
             menu.menu_GV()
             opt = 0
@@ -50,9 +51,10 @@ while option > 0 and option < 2:
                 elif opt == 3: GV._3(root)
                 elif opt == 4:
                     print("\nChon chuc nang luu thong tin\n")
-                    f = open("d:\Github\C_final_but_Python\de_2014\sinhvien.txt","w")
+                    f = open("sinhvien.txt","w")
                     tree.rewrite(f, root)
                     f.close()
+                    print("Luu thanh cong\n")
 
     elif option == 2:
         print("\nThoat chuong trinh thanh cong\n")

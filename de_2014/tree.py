@@ -31,7 +31,7 @@ def delete(root, user_del):
         return root
     if root.username > user_del:
         root.left = delete(root.left, user_del)
-    elif root.user < user_del:
+    elif root.username < user_del:
         root.right = delete(root.right, user_del)
     else:
         if root.left is None:
