@@ -90,6 +90,6 @@ def login(log_info):
         check += 1
         if check == 3:
             print("Sai qua 3 lan. Thoat\n")
-            break
+            quit()
 
 
