@@ -79,8 +79,7 @@ def rewrite(f, root):
 def login(log_info):
     check = 0
     while True:
-        print("Password: ")
-        password = input()
+        password = input("Password: ")
 
         if log_info.password == password: 
             print("Dang nhap thanh cong\n")

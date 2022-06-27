@@ -10,14 +10,12 @@ f.close()
 option = 1
 while option > 0 and option < 2:
     menu.main_menu()
-    print("Chon chuc nang: ")
-    option = int(input())
+    option = int(input("Chon chuc nang: "))
     
     if option == 1:
         log_info = None
         while log_info is None:
-            print("Username:") 
-            username = input()
+            username = input("Username: ")
             log_info = tree.search(root, username)
         
         tree.login(log_info)
@@ -26,8 +24,7 @@ while option > 0 and option < 2:
             menu.menu_SV()
             opt = 0
             while opt != 3:
-                print("\nChon chuc nang: ")
-                opt = int(input())
+                opt = int(input("\nChon chuc nang: "))
 
                 if opt == 1: SV._1(log_info)
                 elif opt == 2: SV._2(root, log_info)
@@ -41,8 +38,7 @@ while option > 0 and option < 2:
             menu.menu_GV()
             opt = 0
             while opt != 4:
-                print("\nChon chuc nang: ")
-                opt = int(input())
+                opt = int(input("\nChon chuc nang: "))
 
                 if opt == 1: GV._1(root)
                 elif opt == 2: 

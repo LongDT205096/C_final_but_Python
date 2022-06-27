@@ -4,11 +4,10 @@ def _1(log_info):
         
 def _2(root, log_info):
     print("\nDa chon chuc nang doi mat khau\n")
-    print("Nhap mat khau moi: ")
-    new_pass = input()
+    new_pass = input("Nhap mat khau moi: ")
+
     while True: 
-        print("Xac nhan lai mat khau: ")
-        pass_check = input()
+        pass_check = input("Xac nhan lai mat khau: ")
         if pass_check == new_pass: break
 
     log_info.password = new_pass

@@ -2,12 +2,9 @@ from tree import Tree, add_node, delete, search
 
 def _1(root):
     print("\nChon chuc nang them sinh vien\n")
-    print("Username: ")
-    username = input()
-    print("Password: ")
-    password = input()
-    print("Score: ")
-    score = float(input())
+    username = input("Username: ")
+    password = input("Password: ")
+    score = float(input("Score: "))
     new = Tree(username, password, score)
     root = add_node(root, new)
 
@@ -20,10 +17,9 @@ def _2(root):
 
 def _3(root):
     print("\nChon chuc nang xoa\n")
-    print("Nhap ten sinh vien can xoa: ")
 
     while True:
-        user_del = input()
+        user_del = input("Nhap ten sinh vien can xoa: ")
         if user_del != "Admin": break
 
     del_node = search(root, user_del)
