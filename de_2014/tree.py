@@ -4,7 +4,7 @@ class Tree:
         root.right = None
         root.username = username
         root.password = password
-        root.score = score
+        root.score = float(score)
 
 def add_node(root, new):
     if root is None:
@@ -13,11 +13,13 @@ def add_node(root, new):
         root.right = add_node(root.right, new)
     elif root.username > new.username:
         root.left = add_node(root.left, new)
+    return root
 
 def traversal(root):
-    traversal(root.left)
-    print(root.username)
-    traversal(root.right)
+    if root is not None:
+        traversal(root.left)
+        print(root.username, root.password, root.score)
+        traversal(root.right)
 
 def LeftMost(root):
     while root.left is not None:
@@ -38,4 +40,56 @@ def delete(root, user_del):
             return new
         
         elif root.right is None:
-            pass
+            new = root.left
+            root = None
+            return new
+
+        new = LeftMost(root.right)
+        root.username = new.username
+        root.right = delete(root.right, new.username)
+
+    return root
+
+def search(root, username):
+    if root is None:
+        return None
+    elif root.username == username:
+        return root
+    elif root.username < username:
+        return search(root.right, username)
+    elif root.username > username:
+        return search(root.left, username)
+
+def read_file(f):
+    root = None
+    new = None
+
+    for x in f:
+        x = x.split(" ")
+        x[-1] = x[-1].strip()
+        new = Tree(x[0], x[1], x[2])
+        root = add_node(root, new)
+
+    return root
+
+def rewrite(f, root):
+    if root is not None:
+        rewrite(f, root.left)
+        f.write("%s %s %.1f\n" % (root.username, root.password, root.score))
+        rewrite(f, root.right)
+
+def login(log_info):
+    check = 0
+    while True:
+        print("Password: ")
+        password = input()
+
+        if log_info.password == password: 
+            print("Dang nhap thanh cong\n")
+            break
+        check += 1
+        if check == 3:
+            print("Sai qua 3 lan. Thoat\n")
+            break
+
+
