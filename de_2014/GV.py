@@ -12,7 +12,6 @@ def _1(root):
     root = add_node(root, new)
 
 def _2(root):
-    print("\nChon chuc nang in danh sach\n")
     if root is not None:
         _2(root.left)
         if root.username != "Admin":
