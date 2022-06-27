@@ -47,7 +47,6 @@ def delete(root, user_del):
         new = LeftMost(root.right)
         root.username = new.username
         root.right = delete(root.right, new.username)
-
     return root
 
 def search(root, username):
@@ -69,7 +68,6 @@ def read_file(f):
         x[-1] = x[-1].strip()
         new = Tree(x[0], x[1], x[2])
         root = add_node(root, new)
-
     return root
 
 def rewrite(f, root):
