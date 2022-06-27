@@ -7,7 +7,7 @@ def _1(root):
     print("Password: ")
     password = input()
     print("Score: ")
-    score = int(input())
+    score = float(input())
     new = Tree(username, password, score)
     root = add_node(root, new)
 
