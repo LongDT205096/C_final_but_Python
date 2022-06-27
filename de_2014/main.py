@@ -36,7 +36,6 @@ while option > 0 and option < 2:
                     f = open("d:\Github\C_final_but_Python\de_2014\sinhvien.txt","w")
                     tree.rewrite(f, root)
                     f.close()
-        
         else:
             menu.menu_GV()
             opt = 0
