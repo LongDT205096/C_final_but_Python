@@ -30,3 +30,4 @@ III.	Giải quyết
 
 IV.	Điểm nổi bật
 -	Sử dụng cấu trúc cây nhị phân giúp thuận tiện trong việc tìm kiếm (đăng nhập tài khoản)
+-	Hướng tối ưu: sử dụng cây AVL (hoặc cây Red-Black đối với file dữ liệu lớn) để tạo sự cân bằng cho cấu trúc cây
