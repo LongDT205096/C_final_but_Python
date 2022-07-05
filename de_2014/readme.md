@@ -7,7 +7,7 @@ II.	Nội dung
 -	Bài tập yêu cầu viết chương trình quản lí điểm sinh viên với các chức năng đăng nhập và thoát chương trình. 
 -	Thông tin đăng nhập được lưu trong 1 file text với 3 trường: username, password, score. Trong đó chia ra 2 loại người dùng phụ trách lớp với tên đăng nhập là Admin và sinh viên là những người dùng còn lại.
 -	Người dùng là sinh viên có thể sử dụng các chức năng xem điểm, đổi mật khẩu, lưu thông tin vào file
--	Người dùng là phụ trách lớp (Admin) có thể sử dụng chức năng them người dùng, in danh sách, xóa người dùng và lưu thông tin
+-	Người dùng là phụ trách lớp (Admin) có thể sử dụng chức năng thêm người dùng, in danh sách, xóa người dùng và lưu thông tin
 
 III.	Giải quyết 
 -	Chương trình sử dụng cấu trúc cây nhị phân tìm kiếm, các thao tác với cây và các cấu trúc đệ quy để thực hiện việc tìm kiếm, duyệt danh sách…
