@@ -1,6 +1,6 @@
 def _1(log_info):
     print("\nChuc nang xem diem cua sinh vien.\n")
-    print("Diem cua sinh vien: ", log_info.score)
+    print("Diem cua sinh vien: \n", log_info.username, log_info.score)
         
 def _2(root, log_info):
     print("\nDa chon chuc nang doi mat khau\n")
