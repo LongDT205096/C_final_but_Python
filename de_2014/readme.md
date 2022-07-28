@@ -14,7 +14,7 @@ III.	Giải quyết
 
    ![image](https://user-images.githubusercontent.com/91714440/177144144-7169b3da-74bb-4f0f-8ca1-b07fe5cdf061.png)
  
--	File dữ liệu chia làm 3 trường: username, password, score. Đặc biệt, người dùng với username là Admin sẽ là người phụ trách.
+-	File dữ liệu chia làm 3 trường: username, password, score. Người dùng với username là Admin sẽ là người phụ trách.
  
  ![image](https://user-images.githubusercontent.com/91714440/177144355-5a5034af-8d43-4029-94f5-7ad458b3a050.png)
 
