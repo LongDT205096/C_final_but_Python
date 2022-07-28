@@ -31,3 +31,10 @@ III.	Giải quyết
 IV.	Điểm nổi bật
 -	Sử dụng cấu trúc cây nhị phân giúp thuận tiện trong việc tìm kiếm (đăng nhập tài khoản)
 -	Hướng tối ưu: sử dụng cây AVL (hoặc cây Red-Black đối với file dữ liệu lớn) để tạo sự cân bằng cho cấu trúc cây
+
+V. File nguồn
+-  main.py: thực hiện chạy toàn bộ giao diện, chức năng chương trình
+-  menu.py: giao diện menu của chương trình, gồm menu chính, menu giáo viên, menu sinh viên
+-  GV.py: gồm các lệnh chức năng của người dùng là giáo viên
+-  SV.py: gồm các lệnh chức năng của người dùng là sinh viên
+-  tree.py: hoạt động của chương trình, gồm các chức năng tìm kiếm, thêm node, xóa node,... trên cấu trúc dữ liệu cây
