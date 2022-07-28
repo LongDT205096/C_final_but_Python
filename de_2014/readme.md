@@ -38,4 +38,4 @@ V. File nguồn
 -  GV.py: gồm các lệnh chức năng của người dùng là giáo viên
 -  SV.py: gồm các lệnh chức năng của người dùng là sinh viên
 -  tree.py: hoạt động của chương trình, gồm các chức năng tìm kiếm, thêm node, xóa node,... trên cấu trúc dữ liệu cây
--  sinhvien.txt: file text chứa thông tin đăng nhập, mật khẩu, điểm số của các người dùng
+-  sinhvien.txt: file text chứa thông tin đăng nhập gồm tên đăng nhập, mật khẩu, điểm số của các người dùng
