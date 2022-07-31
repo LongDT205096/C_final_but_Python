@@ -29,7 +29,7 @@ III.	Giải quyết
    ![image](https://user-images.githubusercontent.com/91714440/182027969-0c8b32a2-5cd4-49a9-8706-f535e3563ddd.png)
    
 
-- Tùy vào chức vụ, chương trình sẽ hiển thị 2 loại menu khác nhau và cho phép người thực hiện các chức năng tương ứng
+- Tùy vào chức vụ, chương trình sẽ hiển thị 2 loại menu khác nhau và cho phép người thực hiện các chức năng tương ứng. Việc chọn chức năng tương ứng với số thứ tự trên menu.
 
    ![image](https://user-images.githubusercontent.com/91714440/177144467-0feb13c5-1228-44e5-9f5c-c52db09a1a04.png)
 
