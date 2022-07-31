@@ -26,7 +26,7 @@ III.	Giải quyết
 -  Sau khi tìm được node khớp với username đã nhập, chương trình thực hiện kiếm tra với password người dùng nhập. Nếu nhập sai quá 3 lần, chương trình sẽ dừng ngay lập tức.
  
    ![image](https://user-images.githubusercontent.com/91714440/177144440-2fa0d534-0bd0-40a1-b5f7-f8f4d0dd0bc9.png)
-
+   ![image](https://user-images.githubusercontent.com/91714440/182027969-0c8b32a2-5cd4-49a9-8706-f535e3563ddd.png)
    
 
 - Tùy vào chức vụ, chương trình sẽ hiển thị 2 loại menu khác nhau và cho phép người thực hiện các chức năng tương ứng
