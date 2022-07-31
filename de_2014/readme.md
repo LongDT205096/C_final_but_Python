@@ -27,7 +27,7 @@ III.	Giải quyết
  
    ![image](https://user-images.githubusercontent.com/91714440/177144440-2fa0d534-0bd0-40a1-b5f7-f8f4d0dd0bc9.png)
 
-   ![](![](2022-07-31-20-03-34.png).png)
+   
 
 - Tùy vào chức vụ, chương trình sẽ hiển thị 2 loại menu khác nhau và cho phép người thực hiện các chức năng tương ứng
 
