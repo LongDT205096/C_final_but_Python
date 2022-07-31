@@ -22,7 +22,7 @@ III.	Giải quyết
  
    ![image](https://user-images.githubusercontent.com/91714440/177144400-3e29853f-e3ac-4315-bc5b-c001756c7ea7.png)
  
--	Khi người dùng đăng nhập, chương trình sẽ thực hiện đệ quy để trả về node chứa thông tin tài khoản dựa trên username. Chương trình cho phép nhập tên tài khoản nhiều lần nếu nhập sai bằng vọng lặp while.
+-	Khi người dùng đăng nhập, chương trình sẽ thực hiện đệ quy để trả về node chứa thông tin tài khoản dựa trên username. Chương trình cho phép nhập tên tài khoản nhiều lần nếu nhập sai bằng vòng lặp while.
 -  Sau khi tìm được node khớp với username đã nhập, chương trình thực hiện kiếm tra với password người dùng nhập. Nếu nhập sai quá 3 lần, chương trình sẽ dừng ngay lập tức.
  
    ![image](https://user-images.githubusercontent.com/91714440/177144440-2fa0d534-0bd0-40a1-b5f7-f8f4d0dd0bc9.png)
