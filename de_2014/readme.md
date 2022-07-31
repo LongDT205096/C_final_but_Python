@@ -39,3 +39,17 @@ V. File nguồn
 -  SV.py: gồm các lệnh chức năng của người dùng là sinh viên
 -  tree.py: hoạt động của chương trình, gồm các chức năng tìm kiếm, thêm node, xóa node,... trên cấu trúc dữ liệu cây
 -  sinhvien.txt: file text chứa thông tin đăng nhập gồm tên đăng nhập, mật khẩu, điểm số của các người dùng
+
+
+Chuyển tiếng nhật
+
+I.　情報
+-  プロジェクトは2014のCベーシックの最終試験。
+-  言語：Python
+-  目標：Python言語でプログラムを書くこととデータ構造を復習します
+
+II.　内容
+-  この演習では、ログインおよびログアウトする機能を備えた学生スコア管理プログラムを書きます。
+-  ログイン情報は、ユーザー名、パスワード、スコアの3つのフィールドを持つテキストファイルに保存されます。その中で、クラスの担任のユーザー名はAdminで、残りのユーザーは学生です。
+-  学生ユーザーは、成績を表示し、パスワードを変更し、ファイルへの情報の保存の機能を使用できます。
+-  
