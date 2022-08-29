@@ -3,7 +3,7 @@ import func
 
 check = 0
 option = 0
-while option != 6:
+while option < 6 and option > -1:
     func.menu()
     option = int(input("Chon chuc nang: "))
 
