@@ -17,9 +17,9 @@ def add(root, new):
 def search(root, maso):
     if root is None:
         return None
-    elif root.maso > maso:
-        return search(root.right, maso)
     elif root.maso < maso:
+        return search(root.right, maso)
+    elif root.maso > maso:
         return search(root.left, maso)
     else:
         return root
@@ -37,10 +37,10 @@ def LeftMost(root):
 
 def delete(root, maso):
     if root is None:
-        return root
-    if root.maso < maso:
+        return None
+    if root.maso > maso:
         root.left = delete(root.left, maso)
-    elif root.maso > maso:
+    elif root.maso < maso:
         root.right = delete(root.right, maso)
     else:
         if root.left is None:
@@ -74,20 +74,18 @@ def read_A(f):
         root = add(root, new)
     return root
 
-def read_B(f):
-    root = None
-    new = None
-
+def read_B(f, dict):
     for x in f: 
         x = x.split(" ")
         x[-1] = x[-1].strip()
-            
-        new = tree(x[0], x[1])
-        root = add(root, new)
-    return root
+        if len(x) == 1:
+            print("Thieu thong tin:",x[0])
+            print("Nhap ten do choi cua", x[0])
+            a = input()
+            x.append(a)
 
-#f = open("A.txt","r")
-#root = read_A(f)
-#traversal(root)
+        dict.update({int(x[0]): x[1]})
+
+
 
 
