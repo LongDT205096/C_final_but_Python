@@ -23,9 +23,9 @@ def traversal(root):
 def search(root, team):
     if root is None:
         return None
-    elif root.team < team:
-        return search(root.right, team)
     elif root.team > team:
+        return search(root.right, team)
+    elif root.team < team:
         return search(root.left, team)
     else:
         return root
