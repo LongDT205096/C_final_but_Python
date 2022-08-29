@@ -23,9 +23,9 @@ def traversal(root):
 def search(root, team):
     if root is None:
         return None
-    elif root.team > team:
-        return search(root.right, team)
     elif root.team < team:
+        return search(root.right, team)
+    elif root.team > team:
         return search(root.left, team)
     else:
         return root
@@ -38,16 +38,16 @@ def LeftMost(root):
 def delete(root, team_out):
     if root is None:
         return root
-    if root.team < team_out:
+    if root.team > team_out:
         root.left = delete(root.left, team_out)
-    elif root.team > team_out:
+    elif root.team < team_out:
         root.right = delete(root.right, team_out)
     else:
         if root.left is None:
             new = root.right
             root = None
             return new
-        elif root.right is None:
+        if root.right is None:
             new = root.left
             root = None
             return new
