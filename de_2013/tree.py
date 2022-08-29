@@ -38,9 +38,9 @@ def LeftMost(root):
 def delete(root, team_out):
     if root is None:
         return root
-    if root.team > team_out:
+    if root.team < team_out:
         root.left = delete(root.left, team_out)
-    elif root.team < team_out:
+    elif root.team > team_out:
         root.right = delete(root.right, team_out)
     else:
         if root.left is None:
